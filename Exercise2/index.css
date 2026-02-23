@@ -1,0 +1,136 @@
+/* I. Selectors */
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}   
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+#style-me2.style-me1 {
+    color: purple;
+}
+
+.my-descendants-are-styled p {
+    background: red;
+}
+
+.my-children-are-styled > p {
+    background: lightgreen;
+}
+
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+.box {
+  background-color: lightblue;
+
+  padding: 20px 30px 40px 50px; /* 4-value syntax; top right bottom left */
+  margin: 10px 20px 30px 40px;   /* top right bottom left */
+
+  padding: 20px 40px; /* 2-value syntax;20px top & bottom, 40px left & right */
+  margin: 10px 30px;  /* 10px top & bottom, 30px left & right */
+
+   padding: 30px;  /* 1-value syntax; all four sides */
+  margin: 20px;   /* all four sides */
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+
+
+.box {
+  border: 5px dotted blue;
+  outline: 10px solid red;
+  border-radius: 20px;
+  background: url("./img1.png");
+}
+
+#box1 {
+  width: 200px;
+  height: 100px;
+  box-sizing: content-box;
+  background: lightblue;
+  border: 5px dotted blue;
+  overflow: visible; 
+  position: absolute; top: 10px; left: 50px;
+
+}
+
+#box2 {
+  width: 20rem;
+  height: 100rem;
+  box-sizing: border-box;
+  background: lightgreen;
+  border: 5px solid green;
+  overflow: hidden;
+  position: relative; top: 20px; left: 50px;
+  color: white; font-size: 1.5rem; line-height: 1.5rem;
+  font-weight: bold; 
+
+}
+
+
+
+#box3 {
+  width: 20vh;
+  height: 10vw;
+  overflow: scroll;
+  position: sticky; top: 10px; left: 50px;
+}   
+
+
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+.text-style1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  text-transform: capitalize;
+  text-decoration: underline wavy red;
+
+}   
+
+.text-style2 {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  color: green;
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: capitalize;
+}
+
+
+/* V. Styling links */
+a:hover {
+    color: red;
+    text-decoration: underline;
+  } 
+
+/* Put styles for questions 1-3 here */
+
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+.calc-style {
+  width: calc(100vw - 100px);
+  
+}
+
+.fixed-width-col {
+  width: 350px;
+  display: inline-block;
+
+}   
